@@ -2,57 +2,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>KTGallery</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&family=Lora&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <style>
+    .background--custom {
+      background: linear-gradient(90deg, #401C00, #6C5F0C, #980807);
+      background-size: 300% 300%;
+      animation: gradient 8s alternate infinite;
+      position:absolute;
+      z-index: -10;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+    }
+    @keyframes gradient {
+      0% {
+        background-position: 0%;
+      }
+      100% {
+        background-position: 100%;
+      }
+    }
+    </style>
     </head>
 <body>
+<h1>FlexBox Title</h1>
     <di class="container">
     <div class="card">
-        <h3 class="card-title">Title</h3>
+        <h3 class="card-title">1</h3>
         <img class="card-image" src="img/gummybears.jpg" alt="Gummy Bears">
-        <h4 class="card-price">2.99</h4>
+        <h4 class="card-desc">Desc</h4>
             </div>
       <div class="card">
-        <h3 class="card-title">Title</h3>
+        <h3 class="card-title">2</h3>
         <img class="card-image" src="img/gummybears.jpg" alt="Gummy Bears">
-        <h4 class="card-price">2.99</h4>
+        <h4 class="card-desc">Desc</h4>
             </div>
     <div class="card">
-        <h3 class="card-title">Title</h3>
+        <h3 class="card-title">3</h3>
         <img class="card-image" src="img/gummybears.jpg" alt="Gummy Bears">
-        <h4 class="card-price">2.99</h4>
+        <h4 class="card-desc">Desc</h4>
             </div>
             <div class="card">
-                <h3 class="card-title">Title</h3>
+                <h3 class="card-title">4</h3>
                 <img class="card-image" src="img/gummybears.jpg" alt="Gummy Bears">
-                <h4 class="card-price">2.99</h4>
+                <h4 class="card-desc">Desc</h4>
                     </div>
               <div class="card">
                 <h3 class="card-title">Title</h3>
                 <img class="card-image" src="img/gummybears.jpg" alt="Gummy Bears">
-                <h4 class="card-price">2.99</h4>
+                <h4 class="card-desc">2.99</h4>
                     </div>
             <div class="card">
                 <h3 class="card-title">Title</h3>
                 <img class="card-image" src="img/gummybears.jpg" alt="Gummy Bears">
-                <h4 class="card-price">2.99</h4>
+                <h4 class="card-desce">2.99</h4>
                     </div>
                     <div class="card">
                         <h3 class="card-title">Title</h3>
                         <img class="card-image" src="img/gummybears.jpg" alt="Gummy Bears">
-                        <h4 class="card-price">2.99</h4>
+                        <h4 class="card-desc">2.99</h4>
                             </div>
                       <div class="card">
                         <h3 class="card-title">Title</h3>
                         <img class="card-image" src="img/gummybears.jpg" alt="Gummy Bears">
-                        <h4 class="card-price">2.99</h4>
+                        <h4 class="card-desc">2.99</h4>
                             </div>
                     <div class="card">
                         <h3 class="card-title">Title</h3>
                         <img class="card-image" src="img/gummybears.jpg" alt="Gummy Bears">
-                        <h4 class="card-price">2.99</h4>
+                        <h4 class="card-desc">2.99</h4>
                             </div>
             </div>
+            <div class="background--custom"></div>
         
 </body>
 </html>
