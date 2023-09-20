@@ -47,3 +47,16 @@ margin: 5rem auto;
 padding: 20px;
 flex-direction: row;
 }
+@media (max-width: 850px) {
+    .flex-container {
+      flex-wrap: wrap;
+    }
+    .flex-item-text {
+      width: 100%;
+    }
+    .div1,
+    .div2 {
+      /* Adjust the width of div1 and div2 on smaller screens */
+      width: 100%;
+    }
+  }
