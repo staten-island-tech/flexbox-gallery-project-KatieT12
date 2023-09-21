@@ -11,41 +11,52 @@ text-align: center;
 font-size: 5rem;
 font-family: 'Montserrat', sans-serif;
 margin-bottom: 30;
+color: aliceblue;
+
 }
 .card{
-    height:35vh;
+    height:38vh;
     width: 20vw;
-background-color:rgb(248, 222, 216);
+background-color:rgb(120, 60, 117);
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: space-around;
 border-radius: 10px;
 margin-bottom:  40px;
-box-shadow: 7px 3px #d6a0a3;
+box-shadow: 7px 3px #571855;
+transition-property: transform;
+transition-duration: 0.3s;
+transition-timing-function: ease;
+transition-delay: 0s;
 }
 .card-image{
     width: 60%;
 }
 
 .card-title{
-    font-size: 2rem;
+    font-size: 3rem;
     text-transform: uppercase;
     font-family: 'Lora', serif;
     margin-top: 2rem;
+    color: aliceblue;
 }
 .card-desc{
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: 'Hind Madurai', sans-serif;
+
 }
 .container{
 display: flex;
-width: 73vw;
+width: 75vw;
 flex-wrap: wrap;
 justify-content: space-around;
 margin: 5rem auto;
 padding: 20px;
 flex-direction: row;
+}
+.card:hover{
+  transform:translate(-20px)
 }
 @media (max-width: 850px) {
     .flex-container {
@@ -60,3 +71,6 @@ flex-direction: row;
       width: 100%;
     }
   }
+a{
+  color: aliceblue;
+}
