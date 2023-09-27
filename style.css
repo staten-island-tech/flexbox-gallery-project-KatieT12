@@ -28,7 +28,6 @@ box-shadow: 7px 3px rgb(87, 24, 85);
 transition-property: transform;
 transition-duration: 0.3s;
 transition-timing-function: ease;
-transition-delay: 0s;
 }
 .card-image{
     width: 60%;
@@ -76,7 +75,6 @@ h1:hover{
   transform: scale(1.1);
   transition-duration: 0.3s;
   transition-timing-function: ease;
-  transition-delay: 0s;
 }
 .card-image:hover{
   opacity: 1;
