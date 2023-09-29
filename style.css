@@ -82,14 +82,15 @@ h1:hover{
 }
 .background--custom {
   background: linear-gradient(90deg, rgb(35, 56, 107), rgb(98, 41, 108), rgb(30, 87, 68));
-  background-size: 300% 300%;
   animation: gradient 9s alternate infinite;
+  background-size: 300% 300%;
   position:absolute;
   z-index: -10;
   top: 0;
   left: 0;
   height: 160%;
   width: 100%;
+  background-repeat: no-repeat;
 }
 @keyframes gradient {
   0% {
