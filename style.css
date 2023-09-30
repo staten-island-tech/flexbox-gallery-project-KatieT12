@@ -6,14 +6,33 @@ html,
     margin: 0;
     padding: 10;
 }
+
+body{
+  background-image: url('img/pexels-codioful-\(formerly-gradienta\)-7135071.jpg')
+}
 h1{
 text-align: center;
 font-size: 5rem;
 font-family: 'Montserrat', sans-serif;
 margin-bottom: 30;
-color: rgb(240, 248, 255);
-
+color: rgb(255, 255, 255);
+animation-name: slideInLeft;
+animation-duration: 2s;
+animation-timing-function: ease-in;
+animation-iteration-count: 1;
+animation-direction: normal;
+animation-fill-mode: forwards;
 }
+@keyframes slideInLeft {
+  from{
+    transform: translate(-1000px);
+  }
+  to{
+    transform: translate(0);
+  }
+}
+
+
 .card{
     height:38vh;
     width: 20vw;
@@ -63,14 +82,15 @@ a{
 .card:hover{
   transform:translate(-20px)
 }
+h1:hover{
+  background-color: rgb(35, 56, 107);
+  border-radius: 10px;
+}
 a:hover{
   background-color: rgb(35, 56, 107);
   border-radius: 10px;
 }
-h1:hover{
-  background-color: rgb(30, 70, 35);
-  border-radius: 10px;
-}
+
 .card-title:hover{
   transform: scale(1.1);
   transition-duration: 0.3s;
@@ -79,26 +99,6 @@ h1:hover{
 .card-image:hover{
   opacity: 1;
   transition: 0.3s;
-}
-.background--custom {
-  background: linear-gradient(90deg, rgb(35, 56, 107), rgb(98, 41, 108), rgb(30, 87, 68));
-  animation: gradient 9s alternate infinite;
-  background-size: 300% 300%;
-  position:absolute;
-  z-index: -10;
-  top: 0;
-  left: 0;
-  height: 160%;
-  width: 100%;
-  background-repeat: no-repeat;
-}
-@keyframes gradient {
-  0% {
-    background-position: 0%;
-  }
-  100% {
-    background-position: 100%;
-  }
 }
 @media screen and (max-width:1000px){
   .card{
