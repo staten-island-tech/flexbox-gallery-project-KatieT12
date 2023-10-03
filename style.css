@@ -8,7 +8,9 @@ html,
 }
 
 body{
-  background-image: url('img/pexels-codioful-\(formerly-gradienta\)-7135071.jpg')
+  background-image: url('img/pexels-codioful-\(formerly-gradienta\)-7135071.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 h1{
 text-align: center;
